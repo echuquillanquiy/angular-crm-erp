@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {RolesComponent} from "./roles.component";
-import * as path from "node:path";
 import {ListRolesComponent} from "./list-roles/list-roles.component";
 
 const routes: Routes = [
@@ -13,12 +12,6 @@ const routes: Routes = [
         path: 'list',
         component: ListRolesComponent
       },
-
-      {
-        path: 'list',
-        component: ListRolesComponent
-      },
-
     ]
   }
 ];
